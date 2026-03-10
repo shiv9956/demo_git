@@ -1,0 +1,35 @@
+In this lesson, you learned about using Git for version control through the command line. Here are the detailed notes:
+
+Navigating the Terminal:
+
+Create a new directory named 'Story' on the desktop.
+Importance of understanding command line basics before proceeding.
+Creating a Text File:
+
+A text file named 'chapter1.txt' is created and content is written in it.
+Initializing a Git Repository:
+
+Use the command git init to initialize a Git repository.
+The .git directory is hidden; it is where Git tracks changes.
+
+Key Concepts:
+
+Working Directory: Current directory you're working in.
+Staging Area: Where changes are prepared to be committed.
+Committing Changes: Use git add to add files to the staging area and git commit to commit the changes.
+Importance of writing clear and present tense commit messages.
+
+Adding Multiple Files:
+
+You can add all files to the staging area using git add ., which is more efficient than adding them one by one.
+Viewing Commit History:
+
+Use git log to view the commit history.
+
+Introduction to HEAD, which indicates the current state of the repository.
+
+Reverting Changes:
+
+A practical example is given by intentionally corrupting 'chapter3.txt'.
+Use git diff to compare the current version with the last committed version.
+The command git checkout is used to restore the file to its previous state
