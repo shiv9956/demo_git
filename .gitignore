@@ -1,0 +1,8 @@
+secrets.txt
+
+
+# this is a comment
+#file.txt: Ignore a specific file.
+#*.log: Ignore all .log files.
+#folder/: Ignore a directory.
+#!important.txt: Force-include a file even if it matches an ignore pattern.
