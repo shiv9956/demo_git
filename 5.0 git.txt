@@ -33,3 +33,15 @@ Reverting Changes:
 A practical example is given by intentionally corrupting 'chapter3.txt'.
 Use git diff to compare the current version with the last committed version.
 The command git checkout is used to restore the file to its previous state
+
+__________________________________________________________________________________________________________________________
+
+
+git rm -r --cached is a Git command that removes files or directories from the
+ staging area (index) recursively, without deleting them from your working directory. Here's a breakdown:
+
+What it does:
+-r: Recursively removes directories and their contents.
+--cached: Tells Git to only remove the files from the index (staging area), not from the filesystem.
+ The files remain in your working directory as untracked files.
+This is essentially the opposite of git add for tracked files—it untracks them without deleting them.
