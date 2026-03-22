@@ -204,3 +204,19 @@ When merging, you may need to handle merge messages depending on the changes.
 This could involve using a text editor to write a summary of the changes.
 __________________________________________________________________________________________________________________________
 
+Forking:
+
+Forking creates a personal copy of a remote repository on GitHub.
+It allows users to make changes without affecting the original repository, which is essential for open-source collaboration.
+
+Difference Between Forking and Cloning:
+Cloning downloads an entire repository to a local environment.
+Forking creates a copy on the user's GitHub account.
+
+Pull Requests:
+After making changes in the forked repository, users can propose these changes to the original repository through a pull request.
+A pull request is a way to request that changes be merged into the original repository.
+
+Collaboration:
+The original repository owner must review and merge changes, maintaining the integrity of the original project.
+__________________________________________________________________________________________________________________________
